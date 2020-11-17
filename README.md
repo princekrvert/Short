@@ -2,6 +2,7 @@
 
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/princekrvert/Short?style=for-the-badge)
 ![Size](https://img.shields.io/github/repo-size/princekrvert/Short?color=%23&style=for-the-badge)
+![made in india](https://img.shields.io/static/v1?label=MADE_IN&message=INDIA&color=brightgreen?style=for-the-badge&logo=appveyor)
 ## url shortener for termux 
 
 ![20201117_143053](https://user-images.githubusercontent.com/56459297/99369182-1f6eb100-28e2-11eb-8f4d-58e70b3db065.jpg)
