@@ -15,8 +15,9 @@ _\ \ | | | (_) | |  | |_
 apt update && apt upgrade
 apt-get install python
 apt-get install python2
-apt-get install python3
+pkg install python3
 pkg install ruby
+pip install pyshorteners
 gem install lolcat
 pkg install figlet
 pkg install cowsay
