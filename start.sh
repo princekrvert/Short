@@ -9,18 +9,23 @@ echo -e "\e[92m
 _\ \ | | | (_) | |  | |_ 
 \__/_| |_|\___/|_|   \__|\e[35m:::\e[37mmade by prince\e[0m
 "
-                                                      
+                                                                                   
 }
 #installing all requirments
-apt update && apt upgrade
-apt-get install python
-apt-get install python2
-pkg install python3
-pkg install ruby
-pip install pyshorteners
-gem install lolcat
-pkg install figlet
-pkg install cowsay
+requirement (){
+           
+    apt update && apt upgrade
+    apt-get install python
+    apt-get install python2
+    pkg install python3
+    pkg install ruby
+    pip install pyshorteners
+    gem install lolcat
+    pkg install figlet
+    pkg install cowsay
+ }
+requirement
+
 chmod +x short.py
 clear
 banner
