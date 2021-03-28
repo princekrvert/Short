@@ -23,3 +23,5 @@ chmod +x install.sh
 
 ### please subscribe my youtube channel
 [Youtube channel](https://youtube.com/channel/UCiplAqC9AwtGGxXU3WQy8pw)
+### Instagram
+[Instagram](https://instagram.com/sirprincekrvert)
