@@ -22,4 +22,4 @@ chmod +x install.sh
 ![20201117_142323](https://user-images.githubusercontent.com/56459297/99369686-bdfb1200-28e2-11eb-8848-be8bedcab99b.jpg)
 
 ### please subscribe my youtube channel
-[Youtube channel](https://m.youtube.com/c/Princeweb)
+[Youtube channel](https://youtube.com/channel/UCiplAqC9AwtGGxXU3WQy8pw)
