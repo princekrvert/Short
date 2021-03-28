@@ -12,11 +12,12 @@ git clone https://github.com/princekrvert/Short.git
 
 cd Short
 
-chmod +x start.sh 
+chmod +x install.sh
 
-./start.sh
+./install.sh
 ```
 ****
+>> Now type " short url " to shorten the url
 
 ![20201117_142323](https://user-images.githubusercontent.com/56459297/99369686-bdfb1200-28e2-11eb-8848-be8bedcab99b.jpg)
 
