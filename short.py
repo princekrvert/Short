@@ -8,8 +8,16 @@
 import pyshorteners
 import argparse
 import time
+import os
 import sys
 #take a input
+#make a function to update the repo---
+def repoUpdate():
+    os.system("git pull https://github.com/princekrvert/Short.git > /dev/null 2>&1 & sleep .05 ")
+    print("Updating ...") 
+    os.system("clear")
+
+
 #Let's define a main function----
 def main():
     parser = argparse.ArgumentParser()
@@ -31,4 +39,5 @@ def main():
         print("\033[31;1mSlow internet connection ....")
 
 if __name__ == "__main__":
+    repoUpdate()
     main()
