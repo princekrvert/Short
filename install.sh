@@ -1,7 +1,7 @@
-#!/data/data/com.termux/files/usr/bin/bash
+#!/usr/bin/bash
 #make a banner first
 #Made by prince ...
-#Date 28 march 2021
+#Date 12 oct 2021
 banner (){
 echo -e "\e[92m
 
@@ -22,6 +22,7 @@ requirement (){
     pkg install python3
     pkg install ruby
     pip install pyshorteners
+    pip install requests
     gem install lolcat
     pkg install figlet
     pkg install cowsay
