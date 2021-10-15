@@ -1,21 +1,30 @@
-#!/data/data/com.termux/files/usr/bin/python3
+#!/usr/bin/python3
 #Author prince kumar
-# Modification date 28 mar 2021
-#start
-
-
+# Modification date14 oct 2021
 #import goes here
 import pyshorteners
 import argparse
+import json 
+import requests
 import time
 import os
 import sys
 #take a input
 #make a function to update the repo---
+# make a banne function 
+def banner():
+    print("\033[33;1m")
+    print('░s░h░o░r░t░', end=" ")
+    print("\033[32;1m MADE BY PRINCE")
 def repoUpdate():
-    os.system("git pull https://github.com/princekrvert/Short.git > /dev/null 2>&1 & sleep .05 ")
-    print("Updating ...") 
-    os.system("clear")
+    if sys.platform == "linux":
+        os.system("git pull https://github.com/princekrvert/Short.git > /dev/null 2>&1 & sleep .05 ")
+        print("Updating ...") 
+        os.system("clear")
+        banner()
+    else:
+        os.system("cls")
+        banner()
 
 
 #Let's define a main function----
@@ -31,6 +40,10 @@ def main():
         print("\033[36;1m Your short url is :", end=" ")
         print("\033[95;1m " ,short_url)
         print()
+        res = requests.get(f"https://is.gd/create.php?format=json&url={link}")
+        print("\033[36;1m Your short url is : ", end=" ")
+        short_link = res.json().get("shorturl")
+        print("\033[95;1m", short_link)
     except KeyboardInterrupt:
         print("\033[36;1m Exiting--->>>>")
         time.sleep(2)
