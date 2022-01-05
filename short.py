@@ -44,6 +44,11 @@ def main():
         print("\033[36;1m Your short url is : ", end=" ")
         short_link = res.json().get("shorturl")
         print("\033[95;1m", short_link)
+        req = requests.post("https://hideuri.com/api/v1/shorten",data = {'url' : link} )
+        short_link = req.json().get("result_url")
+        print()
+        print("\033[36;1m Your short url is : ", end=" ")
+        print("\033[95;1m", short_link)
     except KeyboardInterrupt:
         print("\033[36;1m Exiting--->>>>")
         time.sleep(2)
