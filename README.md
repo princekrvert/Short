@@ -8,6 +8,7 @@
 ![20201117_143053](https://user-images.githubusercontent.com/56459297/99369182-1f6eb100-28e2-11eb-8f4d-58e70b3db065.jpg)
 ***
 
+[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
 ```
 git clone https://github.com/princekrvert/Short.git
 
